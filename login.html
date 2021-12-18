@@ -3,70 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>Login</title>
+        <link rel="stylesheet" href="style_login.css">
+
 </head>
 <body>
-    <style>
-        body{
-            background-color: #FFFFFF;
-            font-family: 'Roboto', sans-serif;
-        }
-
-        h1{
-            text-align: center;
-            padding-top: 15px;
-            color: white;
-        }
-
-        .login-box{
-            width: 360px;
-            height: 270px;
-            margin: auto;
-            border-radius: 3px;
-            background-color: #FF655B;
-        }
-        form{
-            width: 300px;
-            margin-left: 20px;
-        }
-        form label{
-            display: flex;
-            margin-top: 20px;
-            font-size: 14px;
-            color: white;
-        }
-
-        form input{
-            width: 100%;
-            padding: 7px;
-            border: none;
-            border: 1px #FF655B;
-            border-radius: 6px;
-            outline: none;
-        }
-
-        input[type="button"]{
-            width: 320px;
-            height: 35px;
-            margin-top: 20px;
-            border: none;
-            background-color: #FFFFFF
-            color: white;
-            font-size: 18px;
-        }
-
-
-        .para-2{
-            text-align: center;
-            color: #FF655B;
-            font-size: 15px;
-            margin-top: 10px;
-        }
-
-        .para-2 a{
-            color: #FF655B;
-            text-align: center;
-        }
-    </style>
     <div class="login-box">
         <h1>Login</h1>
         <form>
@@ -75,9 +15,10 @@
             <label>Password</label>
             <input type="password" placeholder="">
             <input type="button" value="Submit">
+            <p class="para-2">Not have an account? <a href="signup.html">Sign Up Here</a> </p>
+
         </form>
     </div>
-    <p class="para-2">Not have an account? <a href="signup.html">Sign Up Here</a> </p>
 
 </body>
 </html>
