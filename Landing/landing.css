@@ -1,0 +1,45 @@
+ body
+        {
+        background-image: url(../Signup-Login/background.png);
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+        }
+        .topnav {
+        overflow: hidden;
+        background-color: #FD5068;
+        }
+        .topnav a {
+        float: left;
+        color: #F2F2F2;
+        text-align: center;
+        padding: 20px 24px;
+        text-decoration: none;
+        font-size: 17px;
+        }
+        .topnav a:hover {
+        background-color: white;
+        color: black;
+        }
+        .topnav a.active {
+        background-color: linear-gradient(262deg, #FF7854, #FD267D);
+        color: white;
+        }
+        .topnav .credentials  a.life {
+        background-color: linear-gradient(262deg, #FF7854, #FD267D);
+        }
+        .topnav .credentials a {
+        background-color: linear-gradient(262deg, #FF7854, #FD267D);
+        float: right;
+        color: #F2F2F2;
+        text-align: center;
+        padding: 20px 24px;
+        text-decoration: none;
+        font-size: 17px;
+        }
+        .topnav .credentials a:hover {
+        background-color: white;
+        color: black;
+        }
