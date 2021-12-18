@@ -46,13 +46,13 @@
 
         h1{
             text-align: center;
-            padding-top: 15px;
+            padding-top: 20px;
             color: #FF655B;
         }
 
         .intro-box{
             width: 400px;
-            height: 400px;
+            height: 330px;
             margin: auto;
             border-radius: 10px;
             background-color: white;
@@ -63,15 +63,15 @@
             width: 300px;
             margin-left: 20px;
         }
-        form label{
+        h2{
             text-align: center;
-            display: flex;
-            margin-top: 20px;
             font-size: 20px;
             color: #FF655B;
+            margin-top: 0px;
         }
 
         .intro-box .intro-logo{
-            width: 100%;
-            margin-top: -120px;
+            width: 90%;
+            margin-top: -20px;
+            position: center;
         }
